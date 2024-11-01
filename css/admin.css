@@ -1,0 +1,162 @@
+/*
+WP Activity Monitor - Admin Stylesheet
+© 2016 - All rights reserved PremiumWPSuite
+Author: PremiumWPSuite
+*/
+
+
+/* Tabs */
+.tab-container {
+  max-width: 620px;
+}
+
+.wps-tabs {
+  border-bottom-right-radius:0px !important;
+  border-bottom-left-radius:0px !important;
+  border-top-left-radius:0px !important;
+  border-top-right-radius:0px !important;
+  padding: 0px !important;
+  background: none !important;
+  border:0px solid transparent !important;
+}
+
+.wps-tabs>ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+  background: none !important;
+  border:0px !important;
+  border-bottom-right-radius:0px !important;
+  border-bottom-left-radius:0px !important;
+  border-top-left-radius:0px !important;
+  border-top-right-radius:0px !important;
+}
+
+.wps-tabs>ul:after {
+  clear: both;
+  content:'';
+  display: block;
+}
+
+.wps-tabs>ul li {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  margin: 0px;
+  border:1px solid #d1d1d1;
+  border-right: 0px;
+  background: #fff;
+  margin-bottom: -1px;
+  position: relative;
+  bottom: -1px !important;
+  top: auto !important;
+  border-top-right-radius:0px !important;
+  border-top-left-radius:0px !important;
+  margin: 0px 0px 0px 0px !important;
+}
+
+.wps-tabs>ul li:last-child {
+  border-right:1px solid #d1d1d1;
+}
+
+.wps-tabs>ul li.ui-state-active {
+  background: #F6F6F6;
+  border-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.wps-tabs>ul li.ui-state-active a {
+  font-weight: bold;
+}
+
+
+.wps-tabs>ul li a:focus {
+  outline:none;
+  box-shadow:none;
+}
+
+.wps-tabs>ul li a {
+  display: inline-block;
+  padding: 10px 15px !important;
+  text-decoration: none;
+  color: #333 !important;
+}
+
+.wps-tabs>div {
+  border:1px solid #d1d1d1 !important;
+  padding: 15px !important;
+  background: #F6F6F6 !important;
+}
+
+/* AM Admin Page */
+.wps-am-admin-page .pull-left {
+  float: left;
+}
+
+.wps-am-admin-page ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+.wps-am-admin-page h3 {
+  font-size: 20px;
+  margin: 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.js-multiple {
+  width: 100%;
+}
+
+.wps-window-overlay {
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:9999;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.wps-window-overlay .wps-wo-inner {
+  position: relative;
+  left:50%;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: 200px;
+  color: #fff;
+  font-size: 28px;
+}
+
+.wps-am-admin-page h2 i {
+  line-height: 32px;
+  padding-right: 8px;
+}
+
+table tr.danger td {
+  background: #fbd1d1;
+}
+
+/* Info Box */
+.wps-info-box .icon-container {
+  border-radius:50%;
+  background: #3d9ae8;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+}
+
+.wps-info-box .icon-container i {
+  color: #fff !important;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  line-height: 40px;
+}
+
+.wps-info-box .content-side h2 {
+  line-height: 40px;
+  padding: 0px !important;
+  margin-left: 55px;
+}
